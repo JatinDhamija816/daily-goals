@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 10px;
+    font: 800 3rem 'Gill-sans';
+    color: grey;
+}
+
+form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+input,
+textarea {
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    font: 400 1.2rem 'Gill-sans';
+}
+
+.add {
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    font: 300 2rem 'Gill-sans';
+    border: none;
+    background-color: black;
+    color: aliceblue;
+}
+
+.task {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(129, 65, 76);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.delete {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    border: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.delete:hover {
+    background-color: red;
+}
